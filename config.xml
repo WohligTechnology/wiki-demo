@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.wohlig.wikidemo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>ARProject</name>
+    <name>ARDemo</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -23,9 +23,9 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="android" spec="~7.0.0" />
     <plugin name="cordova-plugin-file" spec="^6.0.1" />
     <preference name="AndroidPersistentFileLocation" value="Internal" />
     <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin.git" />
+    <engine name="android" spec="^7.0.0" />
 </widget>
