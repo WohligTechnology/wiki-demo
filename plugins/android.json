@@ -9,6 +9,12 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.wohlig.wikidemo"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.wohlig.wikidemo"
+    },
+    "com.wikitude.phonegap.WikitudePlugin": {
+      "PACKAGE_NAME": "com.wohlig.wikidemo"
     }
   },
   "dependent_plugins": {}

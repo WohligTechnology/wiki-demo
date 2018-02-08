@@ -24,4 +24,8 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="~7.0.0" />
+    <plugin name="cordova-plugin-file" spec="^6.0.1" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin.git" />
 </widget>
