@@ -113,3 +113,32 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+ul.demo {
+     margin: 0 0;
+    list-style: none;
+    padding: 0;
+}
+
+ul.demo li {
+    border-radius: 0;
+       
+}
+
+a.ui-link {
+    padding: 15px 20px;
+     border: 1px solid #ddd;
+    display: block;
+    text-decoration: none;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+h4.title {
+    background: #2196F3;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}

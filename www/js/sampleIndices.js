@@ -524,5 +524,4 @@ var samples = [
 
 function getSamplePath(category, sample) {
 	return samples[category][sample];
-
 }
