@@ -17,7 +17,7 @@ var World = {
 		/*
 			For creating the marker a new object AR.GeoObject will be created at the specified geolocation. An AR.GeoObject connects one or more AR.GeoLocations with multiple AR.Drawables. The AR.Drawables can be defined for multiple targets. A target can be the camera, the radar or a direction indicator. Both the radar and direction indicators will be covered in more detail in later examples.
 		*/
-		var markerLocation = new AR.GeoLocation(poiData.latitude, poiData.longitude, poiData.altitude);
+		var markerLocation = new AR.GeoLocation(19.041698, 72.862279, poiData.altitude);
 		var markerImageDrawable_idle = new AR.ImageDrawable(World.markerDrawable_idle, 2.5, {
 			zOrder: 0,
 			opacity: 1.0

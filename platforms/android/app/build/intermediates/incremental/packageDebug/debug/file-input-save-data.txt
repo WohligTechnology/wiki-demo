@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Feb 12 17:47:20 IST 2018
+#Mon Feb 12 18:26:48 IST 2018
 210.set=ANDROID_RESOURCE
 282.file=/home/wohlig/Documents/htdocs/demo/wikidemo/platforms/android/app/build/intermediates/assets/debug/www/world/08_PointOfInterest_4_SelectingPois/jquery/jquery-mobile-transparent-ui-overlay.css
 14.set=ASSET
